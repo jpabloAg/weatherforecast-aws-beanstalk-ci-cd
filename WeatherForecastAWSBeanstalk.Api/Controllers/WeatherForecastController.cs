@@ -29,5 +29,11 @@ namespace WeatherForecastAWSBeanstalk.Api.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("/seasons")]
+        public IEnumerable<string> GetSeasons()
+        {
+            return Summaries;
+        }
     }
 }
