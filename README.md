@@ -36,6 +36,8 @@ Podemos visualizar el flujo con el siguiente diagrama:
         H --> I[Application Deployment]
       end
 ```
+### Pipeline CI/CD
+El archivo .yml con el paso a paso de como compilar y empequetar un proyecto de .net, junto con las tareas asociadas al despliegue lo encuentran en la siguiente ruta del proyecto **.github/workflows/dotnet.yml**, o bien pueden ingresar al siguiente enlace [pipeline CI/CD usando github actions y aws](https://github.com/jpabloAg/weatherforecast-aws-beanstalk-ci-cd/blob/master/.github/workflows/dotnet.yml)
 
 ### Requisitos
 
